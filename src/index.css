@@ -24,4 +24,9 @@
   .hide{
     @apply hidden
   }
+.lt{
+  letter-spacing: 3px;
 }
+}
+
+

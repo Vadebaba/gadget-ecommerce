@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react'
 import { IoIosMenu, IoMdClose, IoMdSearch } from 'react-icons/io'
 import { FaCaretDown, FaCartShopping } from 'react-icons/fa6'
@@ -48,6 +49,7 @@ const DropdownLinks = [
     },
 ]
 
+// eslint-disable-next-line react/prop-types
 const Navbar = ({ handleOrderPopup }) => {
 
     const [menuOpened, setmenuOpened] = useState(false);
@@ -65,9 +67,9 @@ const Navbar = ({ handleOrderPopup }) => {
                 <div className='container flex justify-between items-center'>
                     <div className='flex items-center gap-4'>
                         <a href="#"
-                            className='text-primary font-semibold tracking-widest 
+                            className='text-primary font-semibold tracking-wide 
                             text-2xl uppercase sm:text-3xl'>
-                            BigJoe
+                            Gadgetify
                         </a>
                         <div className='hidden lg:block'>
                             <ul className='flex items-center gap-4'>
@@ -101,7 +103,8 @@ const Navbar = ({ handleOrderPopup }) => {
                                     shadow-md dark:bg-gray-900 p-2 dark:text-white'
                                     >
                                         <ul className='space-y-2'>
-                                            {DropdownLinks.map((data, index) => (
+                                            {DropdownLinks.map((data) => (
+                                                // eslint-disable-next-line react/jsx-key
                                                 <li>
                                                     <a
                                                         className='text-gray-500 rounded-md
