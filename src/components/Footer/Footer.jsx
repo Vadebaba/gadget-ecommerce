@@ -33,7 +33,7 @@ const footer = () => {
             <a href="#"
               className='text-primary font-semibold tracking-widest 
                             text-2xl uppercase sm:text-3xl'>
-              BigJoe
+              gadgetify
             </a>
             <p className='text-gray-600 dark:text-white/70 lg:pr-24 pt-3'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
@@ -103,20 +103,20 @@ const footer = () => {
                   <p>+156778992</p>
                 </div>
 
-<div className='flex items-center gap-3 mt-6'>
-  <a href="#">
-    <FaInstagram className='text-3xl 
+                <div className='flex items-center gap-3 mt-6'>
+                  <a href="#">
+                    <FaInstagram className='text-3xl 
     hover:text-primary duration-300'/>
-  </a>
-  <a href="#">
-    <FaFacebook className='text-3xl 
+                  </a>
+                  <a href="#">
+                    <FaFacebook className='text-3xl 
     hover:text-primary duration-300'/>
-  </a>
-  <a href="#">
-    <FaLinkedin className='text-3xl 
+                  </a>
+                  <a href="#">
+                    <FaLinkedin className='text-3xl 
     hover:text-primary duration-300'/>
-  </a>
-</div>
+                  </a>
+                </div>
               </div>
             </div>
           </div>

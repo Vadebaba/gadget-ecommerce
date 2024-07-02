@@ -9,7 +9,7 @@ const HeroData = [
   {
     id: "1",
     img: Image1,
-    subtitle: "Beats Solo",
+    subtitle: "Apple Beats",
     title: "Wireless",
     title2: "Headphone",
     description:
@@ -18,18 +18,18 @@ const HeroData = [
   {
     id: "2",
     img: Image2,
-    subtitle: "Beats Solo",
+    subtitle: "Apple",
     title: "Wireless",
-    title2: "Headphone",
+    title2: "vr",
     description:
       "Lorem ipsum dolor sit amet consectetur dipisicing elit, Optio consectetur recusandae cupiditate vel, esse.",
   },
   {
     id: "3",
     img: Image3,
-    subtitle: "Beats Solo",
-    title: "Wireless",
-    title2: "Headphone",
+    subtitle: "Apple",
+    title: "Latest",
+    title2: "Macbook",
     description:
       "Lorem ipsum dolor sit amet consectetur dipisicing elit, Optio consectetur recusandae cupiditate vel."
   },

@@ -29,6 +29,7 @@ const ProductCard = ({ data }) => {
                   textColor={"text-white"}
                 />
               </div>
+              
             </div>
 
             <div className='leading-7'>

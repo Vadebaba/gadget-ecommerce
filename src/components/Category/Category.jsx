@@ -35,7 +35,7 @@ const Category = () => {
 
           {/*second col */}
           <div className='py-6 pl-5 bg-gradient-to-br from-brandYellow
-           to-brandYellow/90 text-white rounded-3xl relative
+           to-black/70 text-white rounded-3xl relative
            h-[300px] flex items-end'>
             <div>
               <div className='mb-4'>
