@@ -103,7 +103,7 @@ const Hero = ({handleOrderPopup}) => {
                       >
                         <Button
                         text="Shop Now"
-                        bgColor="bg-primary"
+                        bgColor="bg-butt"
                         textColor="text-white"               
                         handler={handleOrderPopup}
                         />
@@ -117,7 +117,8 @@ const Hero = ({handleOrderPopup}) => {
                        className='relative z-10'
                       >
                         <img src={data.img} alt=""
-                          className='w-[300px] sm:w-[450px] h-[300px]
+
+                          className='w-[300px] sm:w-[400px] h-[300px] mt-[23px] rotate-[32deg]
                          sm:scale-105 lg:scale-120 object-contain mx-auto 
                     drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)] relative z-40'/>
                       </div>

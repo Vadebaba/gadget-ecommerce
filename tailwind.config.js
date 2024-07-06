@@ -11,6 +11,7 @@ export default {
         brandGreen: "#2dcc6f",
         brandBlue: "#1376f4",
         brandWhite: "#eeeeee",
+        butt: "rgb(58,97,60)",
       },
       container: {
         center: true,
